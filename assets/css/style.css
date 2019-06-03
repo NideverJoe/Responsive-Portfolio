@@ -1,0 +1,191 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    height: 95vh;
+    font-size: 18px;
+    margin: auto;
+    background-image:url("../images/bgimage.png")
+}
+
+.header {
+    background: #ffffff;;
+    border-bottom: solid 1px #cccccc;
+    position: static;
+    left: 0;
+    bottom: 0;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: #cccccc;
+    width: 225px;
+    padding: 15px;
+    float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    clear: both;
+    border-bottom: solid 3px #cccccc;
+    padding-bottom: 5px
+}
+
+ul {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 50px 0px;
+}
+
+li a {
+    color: #777777;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    float: right;
+    display: inline
+  }
+
+  .clearfix {
+    clear: both;
+}
+
+.AboutMe {
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.Form {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.Portfolio {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.container {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    height: auto;
+}
+
+.headshot {
+    float: left;
+    margin: 5px
+}
+
+.biog {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    word-wrap: normal;
+    line-height: 24px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+input {
+    width: 926px;
+}
+
+textarea {
+    width: 926px;
+    height: 400px;
+}
+
+.pbox {
+    width:250px;
+    height:250px;
+    margin:10px;
+    float: left;
+    position: relative;
+}
+
+.ptitle{
+    color: white;
+    background: cadetblue;
+    text-align: center;
+    font size: 16px;
+    padding: 10px 0;
+    /* position: absolute; */
+    bottom: 20px;
+    width: 250px;
+    margin: 10px;
+}
+
+.hangman {
+    background-image: url(../images/hangman.jpg)
+}
+
+.rpg {
+    background-image: url(../images/rpg.png)
+}
+
+.trivia {
+    background-image: url(../images/trivia.jpg)
+}
+
+.rutgers {
+    background-image: url(../images/rutgers.jpg)
+}
+
+.rock {
+    background-image: url(../images/rock.png)
+}
+
+.clearfix {
+    overflow: auto;
+  }
+
+.wrap {
+    margin: 0 auto 75px;
+}
+
+footer {
+    background: #666666;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 980px) {
+    .wrap {
+        width: 980px;
+      }
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 768px;
+      }
+}
+
+@media screen and (max-width: 640px) {
+    .wrap {
+        width: 640px;
+      }
+
+}
+}
