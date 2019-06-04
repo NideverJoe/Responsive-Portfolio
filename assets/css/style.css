@@ -107,11 +107,11 @@ li a {
 }
 
 input {
-    width: 926px;
+    width: auto;
 }
 
 textarea {
-    width: 926px;
+    width: auto;
     height: 400px;
 }
 
@@ -176,19 +176,18 @@ footer {
 
 @media screen and (max-width: 980px) {
     .wrap, body {
-        width: 100%;
+        width: 600px;
       }
 
 @media screen and (max-width: 768px) {
     .wrap, body {
-        width: 100%;
+        width: 450px;
       }
 }
 
 @media screen and (max-width: 640px) {
     .wrap, body {
-        width: 100%;
-        float: none;
+        width: 320px;
       }
 
 }
